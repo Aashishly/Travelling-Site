@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Varela+Round&display=swap');
+
+body{
+    font-family: "Abril Fatface", times, serif;
+    
+}
+
+h1{
+    
+    font-family: "Abril Fatface", times, serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: "Abril Fatface", times, serif;
+    font-weight: 400;
+    line-height: 1.7;
+    
+}
+section p{
+    font-family: "Abril Fatface", times, serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: gray;
+
+}
+
+
+.section6 p{
+    font-family: "Abril Fatface", times, serif;
+    line-height: 1;
+
+}
+
+
+.hero{
+    background-image: url("front.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.hero::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-color: rgba(25, 25, 56, 0.8);
+}
+
+.navbar .logo{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Abril Fatface", times, serif;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+
+section h4{
+    font-weight: 900;
+    color: #65c0ba;
+    font-size: 35px;
+    padding: 0px 5px;
+    align-self: center;
+}
+
+#intro{
+    font-weight: 800;
+}
+
+#video-icon{
+    font-size: 32px;
+    padding: 0px 10px;
+    color: #65c0ba;
+}
+
+section h2{
+    font-family: "Abril Fatface", times, serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+section h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+section p{
+    font-size: 18px;
+}
+
+.section4{
+    background-color: #65c0ba;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+section a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    
+}
+
+section a:hover{
+    color: white;
+}
+
+span i{
+    cursor: pointer;
+}
+
+.section5 h5{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.section6 i{
+    text-align: center;
+    color: gray;
+    margin: 2px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.section6 i:hover{
+    color: white;
+}
+
+
+
+
